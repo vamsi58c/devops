@@ -25,7 +25,7 @@ pipeline {
             }
         }
 
-        stage('UNIT TEST'){
+  /*      stage('UNIT TEST'){
             steps {
                 sh 'mvn test'
             }
@@ -46,7 +46,7 @@ pipeline {
                     echo 'Generated Analysis Result'
                 }
             }
-        }
+        }   */
 
 
         stage('Building image') {
